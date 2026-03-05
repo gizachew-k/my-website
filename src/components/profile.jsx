@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchGitHubData } from '../services/github';
+import profile from '../images/profile.jpg';
 import './profile.css';
 
 const Profile = ({ username }) => {
@@ -28,7 +29,7 @@ const Profile = ({ username }) => {
   return (
     <div className="profile-container">
       <div className="profile-card">
-        <img src={profile.avatar_url} alt={profile.name} className="profile-avatar" />
+        <img src={profile} alt={"giz"} className="profile-avatar" />
         
         <div className="profile-info">
           <h1>{profile.name || username}</h1>
