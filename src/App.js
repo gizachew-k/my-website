@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <div className="app">
         <header>
-          <h1>🚀GIZACHEW KASSA</h1>
+          <h1>GIZACHEW KASSA</h1>
           <nav>
             <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
               Profile

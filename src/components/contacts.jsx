@@ -23,7 +23,7 @@ const Contact = () => {
     setStatus('sending');
 
     try {
-      const response = await fetch('https://formspree.io/f/meeryrjb', {
+      const response = await fetch('https://formspree.io/f/xvzwpkae', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -145,10 +145,10 @@ const Contact = () => {
             <span className="info-icon">🐙</span>
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" className="info-link">
+          {/* <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" className="info-link">
             <span className="info-icon">💼</span>
             LinkedIn
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
