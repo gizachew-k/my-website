@@ -137,11 +137,11 @@ const Contact = () => {
       <div className="contact-info">
         <h3>Other Ways to Connect</h3>
         <div className="info-links">
-          <a href="mailto:gizachewkassa22@gmail.com" className="info-link">
+          <a href="mailto:gizachewkassa22@gmail.com" target="_blank" rel="noopener noreferrer" className="info-link">
             <span className="info-icon">📧</span>
             gizachewkassa22@gmai.com
           </a>
-          <a href="https://github.com/gizachew-k" target="_blank" rel="noopener" className="info-link">
+          <a href="https://github.com/gizachew-k" target="_blank" rel="noopener noreferrer" className="info-link">
             <span className="info-icon">🐙</span>
             GitHub
           </a>
