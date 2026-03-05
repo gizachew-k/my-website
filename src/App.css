@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background: white;
+  background: blue;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   padding: 20px;
   position: sticky;
@@ -74,4 +74,3 @@ footer {
   border-top: 1px solid #e5e7eb;
   margin-top: 40px;
 }
-/*new css i have addded for the all*/
