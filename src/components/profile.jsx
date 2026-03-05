@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fetchGitHubData } from '../services/github';
-import profile from '../images/profile.jpg';
+// import profile from '../images/profile.jpg';
 import './profile.css';
 
 const Profile = ({ username }) => {
