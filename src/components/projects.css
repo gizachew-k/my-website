@@ -1,0 +1,159 @@
+.projects-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2563eb;
+}
+
+.projects-filters {
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.language-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+
+.filter-btn:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+.filter-btn.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.project-header h3 {
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.project-stats {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.project-description {
+  color: #4b5563;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech-tag, .topic-tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.tech-tag {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.topic-tag {
+  background: #f3e8ff;
+  color: #6b21a8;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-footer {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 10px;
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+.loader {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #2563eb;
+}
