@@ -139,7 +139,7 @@ const Contact = () => {
         <div className="info-links">
           <a href="mailto:gizachewkassa22@gmail.com" target="_blank" rel="noopener noreferrer" className="info-link">
             <span className="info-icon">📧</span>
-            gizachewkassa22@gmai.com
+            gizachewkassa22@gmail.com
           </a>
           <a href="https://github.com/gizachew-k" target="_blank" rel="noopener noreferrer" className="info-link">
             <span className="info-icon">🐙</span>
